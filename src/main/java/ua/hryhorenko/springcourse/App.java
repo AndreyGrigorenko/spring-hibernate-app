@@ -17,12 +17,9 @@ public class App {
     try {
       session.beginTransaction();
 
-      Person person = new Person("some name", 60);
-      session.save(person);
+      session.createQuery("DELETE FROM Person WHERE age = 60").executeUpdate();
 
       session.getTransaction().commit();
-
-      System.out.println(person.getId());
     } finally {
       sessionFactory.close();
     }
