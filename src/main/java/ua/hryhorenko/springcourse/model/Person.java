@@ -1,4 +1,4 @@
-package org.example.model;
+package ua.hryhorenko.springcourse.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

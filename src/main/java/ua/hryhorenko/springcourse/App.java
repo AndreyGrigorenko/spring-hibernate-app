@@ -1,6 +1,6 @@
-package org.example;
+package ua.hryhorenko.springcourse;
 
-import org.example.model.Person;
+import ua.hryhorenko.springcourse.model.Person;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

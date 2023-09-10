@@ -1,4 +1,4 @@
-package org.example;
+package ua.hryhorenko.springcourse;
 
 import static org.junit.Assert.assertTrue;
 
