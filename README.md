@@ -1,1 +1,1 @@
-# spring-hibernate-app
+# spring-mvc-app1
